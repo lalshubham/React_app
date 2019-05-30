@@ -1,0 +1,162 @@
+body{
+    background-color: #f8f8f8;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.navbar {
+    position: relative;
+    min-height: 75px;
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid transparent;
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    display: block;
+    width: 100%;
+    height: 480px;
+}
+.Index h3{
+    margin-top: 50px;
+    /* color: black; */
+    text-align: center;
+}
+
+.Index .box {
+    background-color: white;
+    text-align: center;
+    height: 150px;
+    
+    padding-top: 50px;
+    /* color: black; */
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    border: 0.5px solid #999;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+
+
+
+/* Contcat Page Code starts here */
+.contactContainer .contactRow {
+    padding-top: 30px;
+}
+/* .contactContainer .contactTitle{
+    
+    
+    opacity: 2;
+    color: white;
+} */
+
+.contactTitle h1{
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 2.5px;
+   
+}
+.contactTitle .details {
+    padding-top: 80px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background: url('https://xwww.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7098.94326104394!2d78.0430654485247!3d27.172909818538997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1385710909804');
+    height: 300px; 
+    padding-left: 80px;
+    color: black;
+}
+
+.contactContainer {
+    padding-top: 40px; 
+    min-height: 530px;
+   letter-spacing: 2.5px;
+   
+}
+.contactContainer h1{
+    font-family: 'Roboto', sans-serif;
+   letter-spacing: 2.5px;
+   padding-bottom: 15px;
+   z-index: 1px;
+}
+
+.contactContainer .contactUs label{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2.5px;
+}
+/* About Code Starts Here */
+.about{
+    min-height: 530px; 
+}
+.about h3, h4, h6 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.about p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    max-width: 100%;
+}
+.about img {
+    display:block;
+    margin:auto;
+    border-radius: 5px;
+}
+
+
+
+/* Our Team Starts Here */
+.ourTeam{
+    padding-top: 60px; 
+    min-height: 530px;
+}
+.ourTeam h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.ourTeam h3{
+    
+    font-family: 'Poppins', sans-serif;
+}
+.ourTeam .title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+.ourTeam p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+.ourTeam p .button{
+    display: block;
+}
+.ourTeam img{
+    border-radius: 15px;
+}
+/* Footer Code Starts Here */
+footer {
+    background-color: #f8f8f8;
+    marging-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.footerClass{
+    text-align: center;
+    color: light-grey;
+
+}
+.footerClass i{
+    padding: 4px;
+    font-size: 15px;
+    
+
+}
+.footerClass p{
+    font-size: 13px;
+}
+    
+.footerClass i:hover {
+    color: #999;
+    cursor: pointer;
+}

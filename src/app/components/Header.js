@@ -2,6 +2,9 @@ import React from "react";
 import {Index} from "../components/index";
 import {About} from "../components/about";
 import {Contact} from "../components/contact";
+import {Create} from "../components/create";
+import {Edit} from "../components/edit";
+import {Delete} from "../components/delete";
 import {Team} from "../components/team";
 import { Link } from 'react-router-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -34,6 +37,9 @@ export class Header extends React.Component{
                         <li><Link to={"/about"} >About Us</Link></li>
                         <li><Link to={"/our-team"} >Our Team</Link></li>
                         <li><Link to={"/contact"} >Contact Us</Link></li>
+                        <li><Link to={"/create"} >Create</Link></li>
+                        <li><Link to={"/edit"} >Edit</Link></li>
+                        <li><Link to={"/delete"} >Delete</Link></li>
                         </ul>
                        
                     </div>
@@ -41,7 +47,10 @@ export class Header extends React.Component{
                             <Route path={"/"} exact component={Index} />
                             <Route path={"/about"} component={About} />
                             <Route path={"/our-team"} exact component={Team} />
-                            <Route path={"/contact"} component={Contact} />    
+                            <Route path={"/contact"} component={Contact} />
+                            <Route path={"/create"} component={Create} />  
+                            <Route path={"/edit"} component={Edit} />  
+                            <Route path={"/delete"} component={Delete} />     
                     </switch>
                 </div>
                 

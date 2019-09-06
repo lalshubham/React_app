@@ -49,7 +49,7 @@ export class Contact extends React.Component {
                         <label for="Message">Enter Message</label>
                         <textarea className="form-control" id="Message" placeholder="Enter Message"></textarea>
                         <br/>
-                        <button type="submit" class="btn btn-success" >Submit</button>
+                        <button type="submit" className="btn btn-success" >Submit</button>
                         
                     </form>
                     <hr />

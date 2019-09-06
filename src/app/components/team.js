@@ -32,7 +32,7 @@ export class Team extends React.Component{
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <img src={logoboy} alt="Jane" style={imgStyle} />
-                    <h3>Khizar Sayed</h3>
+                    <h3>Diwa Sharma</h3>
                     <p className="title">Frontend Developer</p>
                     <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
                     <p><button className="button">Contact</button></p>
